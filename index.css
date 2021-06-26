@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    margin: 0 145px;
+    border-bottom: 2px solid #f48149;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #393939;
+}
+h5{
+    font-size: 23px;
+    font-weight: 700;
+    color: #393939;
+}
+h3{
+    font-size: 27px;
+    font-weight: 700;
+    color: #393939;
+}
+h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #393939;
+}
+a{
+    color: #3b5eff;
+    text-decoration: underline;
+}
+a:hover{
+    color: #f48149;
+}
+span{
+    font-weight: 700;
+}
+.primary-button{
+    border: 2px solid #ff5a0a;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 19px;
+    transition: .2s;
+}
+.primary-button:hover{
+    background-color: #ff5a0a;
+    color: white;
+}
+/* Header section start */
+.header-right{
+    transform: rotate(3deg);
+    transform-origin: top;
+    transition: all .5s ease;
+}
+.header-right:hover{
+    transform: rotate(0deg);
+}
+.header-right img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+    padding: 0 15px;
+    background-color:lightgrey;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 5px 5px 20px gray;
+    margin-left: 15%;
+}
+.circle-clip {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+/* Header section End */
+
+
+/* Activity Section Start */
+.activity-card{
+    background-color: #e0e0e0;
+    padding: 15px 50px;
+    border: .5px solid gray;
+    border-radius: 12px;
+    font-size: 17px;
+}
+/* Activity Section End */
+
+
+/* Top Project Section Start */
+.top-project-card{
+    border: 1px solid gray;
+    height: 540px;
+}
+/* Top Project Section End */

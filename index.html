@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevXHub Portfolio Task</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-evenly sm:items-stretch sm:justify-evenly">
+              <div class="flex-shrink-0 flex items-center">
+                <h1 class="text-white text-3xl font-bold italic">JD</h1>
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+      
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Project</a>
+      
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar Section End -->
+
+
+    <!-- Header Section Start -->
+
+    <section class="flex justify-center my-12">
+
+        <div class="w-4/5 p-3">
+            <h2 class="heading-one mb-8">Hey, I'm Jack Domleo</h2>
+            <h6 class="mb-3">I'm a mid-level <span>front-end developer</span> from <span>Nottingham, UK.</span> </h6>
+                
+            <h6> work with Vue.js and TypeScript primarily, but you can find more in my toolbox 
+            <a href="#">here</a>. I am the author of <a href="#">Level-Up YourCareer Today: Developer Edition</a>. I <a href="#">blog</a> about tech and engage with the <a href="#">Tech Twitter</a> community.</h6>
+
+            <h4 class="text-3xl font-bold my-10">[ I Like To Think ]</h4>
+            <h4 class="text-3xl font-normal my-10">Developer at <a href="#">Mitrefinch</a></h4>
+        </div>
+
+        <div class="header-right w-2/5 mt-12">
+            <div class="circle-clip"></div>
+            <img src="https://i.ibb.co/5K3pYXP/review1.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- Header Section End -->
+
+
+    <!-- Latest Article Section Start -->
+    <section>
+        <h5 class="mb-12">Latest Article</h5>
+        <a href="#" class="text-2xl font-extrabold">Monthly reflection - November 2020</a>
+        <h6 class="my-5"><span>2nd December 2020</span> * 3 minutes read</h6>
+        <p class="text-xl">A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</p>
+        <div class="text-right my-8">
+            <button class="primary-button">Read more</button>
+        </div>
+    </section>
+    <!-- Latest Article Section End -->
+
+
+    <!-- Activity Section Start -->
+    <section>
+        <h5 class="my-6">What am I currently doing</h5>
+        <div class="grid grid-cols-2 gap-4 mb-8">
+            <div class="activity-card">📚 Reading <a href="#">The Standout Developer</a> by <a href="#">Randall Kanna</a></div>
+            <div class="activity-card">Redesigning my website 🎨</div>
+            <div class="activity-card">Always learning and practising front-end technologies</div>
+            <div class="activity-card">Planning my next projects 🚀</div>
+        </div>
+    </section>
+    <!-- Activity Section End -->
+
+
+    <!-- Top Project Section Start -->
+    <section>
+        <h5 class="my-6">Top projects</h5>
+        <h6>Some of my top projects and CodePens! You can also see <span>all</span> of my projects <a href="#">here</a> .</h6>
+
+        <div class="grid grid-cols-2 gap-4 mt-4">
+
+            <div class="top-project-card">
+                <img src="https://jackdomleo.dev/img/projects/checka11y.png" alt="">
+
+                <div class="p-5">
+                    <h6 class="font-extrabold text-2xl">Checka11y.css</h6>
+                    <h6 class="py-6">A CSS stylesheet to quickly highlight a11y concerns.</h6>
+                    <button class="primary-button mt-12">View</button>
+                </div>
+            </div>
+
+            <div class="top-project-card">
+                <img src="https://jackdomleo.dev/img/projects/cooltipz.png" alt="">
+
+                <div class="p-5">
+                    <h6 class="font-extrabold text-2xl">Cooltipz.css</h6>
+                    <h6 class="py-6">A pure CSS library to help add customisable, accessible tooltips to HTML, available on npm, yarn and CDN.</h6>
+                    <button class="primary-button mt-12">View</button>
+                </div>
+            </div>
+
+            <div class="top-project-card">
+                <img src="https://jackdomleo.dev/img/projects/tmdip.png" alt="">
+
+                <div class="p-5">
+                    <h6 class="font-extrabold text-2xl">www.tmdip.co.uk</h6>
+                    <h6 class="py-6">A fully responsive website for TMD Interior Projects & Building Services Ltd.</h6>
+                    <button class="primary-button mt-12">View</button>
+                </div>
+            </div>
+
+            <div class="top-project-card">
+                <img src="https://jackdomleo.dev/img/projects/ellaparsons.png" alt="">
+
+                <div class="p-5">
+                    <h6 class="font-extrabold text-2xl">ellaparsons.design</h6>
+                    <h6 class="py-6">A fully responsive portfolio website for Ella Parsons.</h6>
+                    <button class="primary-button mt-12">View</button>
+                </div>
+            </div>
+
+            <div class="my-6"> 
+                <h6>See the Pen <a href="#">Neumorphic Design Elements</a> by <a href="#">@jackdomleo7</a> on <a href="#">CodePen</a>.</h6>
+            </div>
+
+            <div class="mt-6">
+                <h6>See the Pen <a href="#">Spinning Smiley Face - GSAP</a> by <a href="#">@jackdomleo7</a> on <a href="#">CodePen</a>.</h6>
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Project Section End -->
+
+
+    <!-- Skills Section Start -->
+    <section>
+        <h5 class="my-5">My toolbox of skills</h5>
+        <h6 class="mb-8">A set of tools and technologies I am comfortable with and competent in:
+        </h6>
+
+        <div class="grid grid-cols-5 gap-6 text-center mb-8">
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-html5"></i></h3>
+                <h6 class="font-bold">HTML5</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-css3-alt"></i></h3>
+                <h6 class="font-bold">CSS3</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-js"></i></h3>
+                <h6 class="font-bold">Javascript</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fas fa-rss"></i></h3>
+                <h6 class="font-bold">jQuery</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-vuejs"></i></h3>
+                <h6 class="font-bold">Vue.js</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-asymmetrik"></i></h3>
+                <h6 class="font-bold">Nuxt.js</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-sass"></i></h3>
+                <h6 class="font-bold">SASS</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fas fa-laptop-code"> </i> </h3>
+                <h6 class="font-bold">Responsive Design</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-js-square"></i></h3>
+                <h6 class="font-bold">Typescript.js</h6>
+            </div>
+
+            <div>
+                <h3 class="text-7xl"><i class="fab fa-git-alt"></i></h3>
+                <h6 class="font-bold">Git</h6>
+            </div>
+
+          </div>
+    </section>
+    <!-- Skills Section End -->
+</body>
+</html>
