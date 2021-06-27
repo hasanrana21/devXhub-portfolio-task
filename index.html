@@ -11,43 +11,19 @@
 </head>
 <body>
     <!-- Navbar Section Start -->
-    <nav class="bg-gray-800">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="relative flex items-center justify-between h-16">
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-              <!-- Mobile menu button-->
-              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-              </button>
-            </div>
-            <div class="flex-1 flex items-center justify-evenly sm:items-stretch sm:justify-evenly">
-              <div class="flex-shrink-0 flex items-center">
-                <h1 class="text-white text-3xl font-bold italic">JD</h1>
-              </div>
-              <div class="hidden sm:block sm:ml-6">
-                <div class="flex space-x-4">
-                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
-      
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-      
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="mb-4 flex items-center justify-around bg-gray-300 navbar-section">
+        <div>
+            <h1 class="text-white text-3xl font-bold italic logo">JD</h1>
         </div>
-      
-        <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden" id="mobile-menu">
-          <div class="px-2 pt-2 pb-3 space-y-1">
-            <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
-      
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Project</a>
-      
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
-          </div>
+
+        <div>
+            <ul class="flex menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
         </div>
-      </nav>
+    </div>
     <!-- Navbar Section End -->
 
 
@@ -223,5 +199,117 @@
           </div>
     </section>
     <!-- Skills Section End -->
+
+
+    <!-- Work Section Start -->
+    <section>
+        <h5 class="my-6">Work</h5>
+        <h6>A brief history of my employment. More details can be found on my <a href="#">LinkedIn profile</a>.</h6>
+
+        <div class="flex my-10">
+            <div class="w-w-1/5 mr-16 p-6">
+                <p class="text-lg">May 2019 <br> -present</p>
+            </div>
+            <div class="w-4/5 px-6 py-4">
+                <h5>MITREFINCH</h5>
+                <h6 class="my-4">DEVELOPER</h6>
+                <h6 class="text-base">Creating multitennant SaaS applications such as payroll and access control using Vue.js and TypeScript</h6>
+            </div>
+        </div>
+
+        <div class="flex my-10">
+            <div class="w-w-1/5 mr-16 p-6">
+                <p class="text-lg">Mar 2019 <br> -May 2019</p>
+            </div>
+            <div class="w-4/5 px-6 py-4">
+                <h5>MITREFINCH</h5>
+                <h6 class="my-4">JUNIOR DEVELOPER</h6>
+                <h6 class="text-base">Created a centralised repository of consistent styles using SCSS, BEM and PostCSS to consume in new products</h6>
+            </div>
+        </div>
+
+        <div class="flex my-10">
+            <div class="w-w-1/5 mr-16 p-6">
+                <p class="text-lg">Sep 2018 <br> -Feb 2019</p>
+            </div>
+            <div class="w-4/5 px-6 py-4">
+                <h5>FLYBMI</h5>
+                <h6 class="my-4">IT/DEVELOPER APPRENTICE</h6>
+                <h6 class="text-base">Used the Grav CMS to maintain the airline's website and React.js to maintain the airline's intranet</h6>
+            </div>
+        </div>
+
+        <div class="text-center mb-5">
+            <button class="primary-button">Show all</button>
+        </div>
+    </section>
+    <!-- Work Section End -->
+
+
+    <!-- Contact Section Start -->
+    <section>
+        <h5 class="my-6">Contact me</h5>
+
+        <form action="#" class="contact-form mb-8">
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <label for="name">Name</label> <br>
+                    <input type="text" name="name" placeholder="Dev Eloper">
+                </div>
+    
+                <div>
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" placeholder="dev.eloper@hey.com">
+                </div>
+            </div>
+
+
+            <br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="" cols="10" rows="5" placeholder="HI Jack! I'm Contacting today to say..."></textarea>
+
+            <div class="my-5 text-right">
+                <button type="submit" class="primary-button">Send</button>
+            </div>
+        </form>
+    </section>
+    <!-- Contact Section End -->
+
+
+    <!-- Subscription Section Start -->
+    <div class="w-1/2 mx-auto mb-16">
+        <h4 class="text-3xl text-gray-700 font-extrabold my-6">Signup to my monthly <a href="#">newsletter</a></h4>
+
+        <p class="text-xl">Subscribe</p>
+        <input type="email" name="email" placeholder="Email">
+
+        <div class="my-5 text-right">
+            <button class="primary-button">Subscribe</button>
+        </div>
+    </div>
+    <!-- Subscription Section End -->
+
+
+    <!-- Footer Section Start -->
+    <div class="w-1/2 mx-auto mt-12 mb-2">
+        <div class="buy-coffee w-2/5 mx-auto flex justify-around items-center"> 
+            <span class="text-3xl text-white coffee-icon"><i class="fas fa-mug-hot"></i></span>
+            <h5 class="text-white italic">Buy me a coffee</h5>
+        </div>
+
+        <div class="social-icon mt-12 mb-3 text-center">
+            <a href="#"> <i class="fab icon fa-twitter"></i> </a>
+            <a href="#"> <i class="fab icon fa-github"></i> </a>
+            <a href="#"> <i class="fab icon fa-codepen"></i> </a>
+            <a href="#"> <i class="fab icon fa-linkedin-in"></i> </a>
+            <a href="#"> <i class="fab icon fa-dev"></i> </a>
+            <a href="#"> <i class="fab icon fa-youtube-square"></i> </a>
+        </div>
+
+        <div class="text-center">
+            <span class="text-xl text-gray-600">©2021 Hasan Rana. All rights reserved.</span>
+        </div>
+    </div>
+    <!-- Footer Section End -->
 </body>
 </html>

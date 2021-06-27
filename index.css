@@ -47,6 +47,30 @@ span{
     background-color: #ff5a0a;
     color: white;
 }
+
+
+/* Navbar Section Start */
+.menu li{
+    font-size: 21px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: #b8b8b8;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+}
+.navbar-section{
+    border-bottom: 5px solid #ff813f;
+}
+
+/* Navbar Section End */
+
+
+
 /* Header section start */
 .header-right{
     transform: rotate(3deg);
@@ -74,6 +98,13 @@ span{
     border-radius: 50%;
     margin-left: 40%;
 }
+.logo{
+    transition: .3s;
+}
+.logo:hover{
+    transform: rotate(35deg, 90deg);
+    cursor: pointer;
+}
 /* Header section End */
 
 
@@ -91,6 +122,56 @@ span{
 /* Top Project Section Start */
 .top-project-card{
     border: 1px solid gray;
-    height: 540px;
 }
 /* Top Project Section End */
+
+
+/* Contact Section Start */
+input{
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 8px 8px;
+    border-radius: 3px;
+    border-bottom: 2px solid #747474;
+    margin-top: 10px;
+}
+.contact-form textarea{
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 8px 8px;
+    border-radius: 3px;
+    border-bottom: 2px solid #747474;
+    margin-top: 10px;
+}
+/* Contact Section End */
+
+
+
+/* Footer Section Start */
+.buy-coffee{
+    background-color: #ff813f;
+    padding: 15px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.coffee-icon{
+    transition: .3s;
+}
+.buy-coffee:hover .coffee-icon{
+    transform: rotate(-20deg);
+}
+.social-icon a{
+    margin: 0 15px;
+    font-size: 36px;
+    color: #747474;
+    cursor: pointer;
+    text-decoration: none;
+}
+.icon{  
+    transition: .3s;
+}
+.social-icon a:hover .icon{
+    transform: rotate(-25deg);
+    color: #ff813f;
+}
+/* Footer Section End */

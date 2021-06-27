@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <div class="mb-4 flex items-center justify-around bg-gray-300 navbar-section">
+        <div>
+            <h1 class="text-white text-3xl font-bold italic logo">JD</h1>
+        </div>
+
+        <div>
+            <ul class="flex menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navbar Section End -->
+
+
+    <!-- Blog Search Area Start -->
+    <section>
+        <h5 class="text-4xl my-10">Blog</h5>
+        <p class="text-xl">You can read my articles here or you can:</p>
+
+        <div class="grid grid-cols-2 gap-8 my-8">
+            <div class="border-solid border-2 border-gray-700 flex justify-evenly items-center rounded-lg hover:shadow-xl cursor-pointer">
+                <h4 class="text-6xl py-5 text-gray-600"><i class="fas fa-rss"></i></h4>
+                <h6>Subscribe to my RSS feed.</h6>
+            </div>
+            <div class="border-solid border-2 border-gray-700 flex justify-evenly items-center rounded-lg hover:shadow-xl cursor-pointer">
+                <h6>Read on DEV.to</h6>
+                <h4 class="text-6xl py-5 text-gray-600"><i class="fab fa-dev"></i></h4>
+            </div>
+        </div>
+        <div class="flex mb-10">
+            <div class="w-9/12 mr-6">
+                <label for="seacrh">Search articles</label>
+                <input id="search" type="search" placeholder="Search...">
+            </div>
+            
+            <div class="w-3/12 mt-2">
+                <label for="select">Quick filter</label><br>
+                <select id="select" class="form-select px-4 py-2 bg-gray-200 rounded-lg w-full border-solid border-2 border-gray-500 h-12">
+                    <option value="option">All</option>
+                    <option value="option">About Me</option>
+                    <option value="option">Monthly Reflection</option>
+                    <option value="option">Career</option>
+                    <option value="option">Event</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Search Area End -->
+
+
+    <!-- Blogs Card Section Start -->
+    <section>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+        <div class="my-16">
+            <h3 class="text-3xl"><a href="#" class="no-underline">Monthly reflection - November 2020</a></h3>
+            <h4 class="text-xl my-6"><span class="text-gray-700">2nd December 2020</span> *  3 minutes read</h4>
+            <h6>A reflection on my November 2020 of what I have done and achieved. The biggest thing was I moved house...</h6>
+        </div>
+
+    </section>
+    <!-- Blogs Card Section End -->
+
+
+    <!-- Subscription Section Start -->
+    <div class="w-1/2 mx-auto mb-16">
+        <h4 class="text-3xl text-gray-700 font-extrabold my-6">Signup to my monthly <a href="#">newsletter</a></h4>
+
+        <p class="text-xl">Subscribe</p>
+        <input type="email" name="email" placeholder="Email">
+
+        <div class="my-5 text-right">
+            <button class="primary-button">Subscribe</button>
+        </div>
+    </div>
+    <!-- Subscription Section End -->
+
+
+    <!-- Footer Section Start -->
+    <div class="w-1/2 mx-auto mt-12 mb-2">
+        <div class="buy-coffee w-2/5 mx-auto flex justify-around items-center"> 
+            <span class="text-3xl text-white coffee-icon"><i class="fas fa-mug-hot"></i></span>
+            <h5 class="text-white italic">Buy me a coffee</h5>
+        </div>
+
+        <div class="social-icon mt-12 mb-3 text-center">
+            <a href="#"> <i class="fab icon fa-twitter"></i> </a>
+            <a href="#"> <i class="fab icon fa-github"></i> </a>
+            <a href="#"> <i class="fab icon fa-codepen"></i> </a>
+            <a href="#"> <i class="fab icon fa-linkedin-in"></i> </a>
+            <a href="#"> <i class="fab icon fa-dev"></i> </a>
+            <a href="#"> <i class="fab icon fa-youtube-square"></i> </a>
+        </div>
+
+        <div class="text-center">
+            <span class="text-xl text-gray-600">©2021 Hasan Rana. All rights reserved.</span>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+</body>
+</html>
